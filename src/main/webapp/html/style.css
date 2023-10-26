@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:  hsl(200, 54%,12%);
+    color: hsl(0, 0%, 90%);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.5;
+    overflow-x: hidden;
+}
+.form-main{
+    min-height: 100vh;
+    padding: 60px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form-content{
+    width: 100%;
+    max-width: 450px;
+    position: relative;
+    z-index: 1;
+
+}
+
+.form-content .box{
+    border-color: hsl(0, 0%, 100%, 0.05);
+    border: 1px solid hsl(0, 0%, 100%, 0.25);
+    padding: 40px 50px;
+    border-radius: 20px;
+}
+.form-content h3{
+    font-size: 28px;
+    text-align: center;
+    line-height: 1.2;
+    color: hsl(0, 0%, 100%);
+    font-weight: 500;
+}
+.form-content form{
+    margin: 25px 0 20px;
+}
+.form-content .input-box{
+    margin: 25px;
+}
+.form-content .input-control{
+    display: block;
+    height: 45px;
+    width: 100%;
+}
+.form-content .btn{
+    height: 45px;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 500;
+}
+.form-content p{
+    text-align: center;
+}
